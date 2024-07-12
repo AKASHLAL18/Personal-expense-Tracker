@@ -1,0 +1,10 @@
+CREATE DATABASE ExpenseTracker;
+USE ExpenseTracker;
+
+CREATE TABLE Expenses (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    date DATE,
+    category VARCHAR(50),
+    amount DECIMAL(10, 2),
+    description VARCHAR(255)
+);
